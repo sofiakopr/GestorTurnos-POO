@@ -8,11 +8,8 @@
 
             // Ejemplos de prueba: turno Normal, Urgente y Seguimiento
             gestor.ProcesarTurno("Juan Pérez", "30111222", "Normal", "juan.perez@mail.com");
-            gestor.DatosPacientes("Juan Pérez", "30111222", "Normal", "juan.perez@mail.com", 0);
             gestor.ProcesarTurno("María Gómez", "27888999", "Urgente", "maria.gomez@mail.com");
-            gestor.DatosPacientes("María Gómez", "27888999", "Urgente", "maria.gomez@mail.com", 0);
             gestor.ProcesarTurno("Carlos Ruiz", "40555666", "Seguimiento", "carlos.ruiz@mail.com");
-            gestor.DatosPacientes("Carlos Ruiz", "40555666", "Seguimiento", "carlos.ruiz@mail.com", 0);
 
             // Ejemplo con datos inválidos, para ver que la validación corta el proceso
             gestor.ProcesarTurno("", "123", "Normal", "email-invalido");
